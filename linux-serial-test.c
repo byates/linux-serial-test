@@ -185,24 +185,24 @@ void process_options(int argc,
         {
         int option_index = 0;
         static const char *short_options = "hb:p:d:R:TsSy:z:certlq:";
-        static const struct option long_options[] =
-			{"help", no_argument, 0, 0},
-			{"baud", required_argument, 0, 'b'},
-			{"port", required_argument, 0, 'p'},
-			{"divisor", required_argument, 0, 'd'},
-			{"rx_dump", required_argument, 0, 'R'},
-			{"detailed_tx", no_argument, 0, 'T'},
-			{"stats", no_argument, 0, 's'},
-			{"stop-on-err", no_argument, 0, 'S'},
-			{"single-byte", no_argument, 0, 'y'},
-			{"second-byte", no_argument, 0, 'z'},
-			{"rts-cts", no_argument, 0, 'c'},
-			{"dump-err", no_argument, 0, 'e'},
-			{"no-rx", no_argument, 0, 'r'},
-			{"no-tx", no_argument, 0, 't'},
-			{"rx-delay", required_argument, 0, 'l'},
-			{"rs485", required_argument, 0, 'q'},
-			{0,0,0,0},
+        static const struct option long_options[] = {
+            {"help", no_argument, 0, 0},
+            {"baud", required_argument, 0, 'b'},
+            {"port", required_argument, 0, 'p'},
+            {"divisor", required_argument, 0, 'd'},
+            {"rx_dump", required_argument, 0, 'R'},
+            {"detailed_tx", no_argument, 0, 'T'},
+            {"stats", no_argument, 0, 's'},
+            {"stop-on-err", no_argument, 0, 'S'},
+            {"single-byte", no_argument, 0, 'y'},
+            {"second-byte", no_argument, 0, 'z'},
+            {"rts-cts", no_argument, 0, 'c'},
+            {"dump-err", no_argument, 0, 'e'},
+            {"no-rx", no_argument, 0, 'r'},
+            {"no-tx", no_argument, 0, 't'},
+            {"rx-delay", required_argument, 0, 'l'},
+            {"rs485", required_argument, 0, 'q'},
+            {0,0,0,0},
             };
 
         int c = getopt_long(argc, argv, short_options, long_options, &option_index);
