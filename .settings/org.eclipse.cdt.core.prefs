@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.exe.debug.852153585/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.exe.debug.852153585/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.exe.debug.852153585/PATH/value=/gtri_dev/buildroot/output/host/usr/bin\:/gtri_dev/OfficalAlteraRepos/u-boot-socfpga/tools\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games
+environment/project/cdt.managedbuild.config.gnu.exe.debug.852153585/append=true
+environment/project/cdt.managedbuild.config.gnu.exe.debug.852153585/appendContributed=true
